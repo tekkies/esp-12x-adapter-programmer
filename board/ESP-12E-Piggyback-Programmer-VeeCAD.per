@@ -6,8 +6,8 @@ File,19
   "NetImportFormat" : "Protel"
 },
 "Board" : {
-  "Width" : 50,
-  "Height" : 50,
+  "Width" : 21,
+  "Height" : 30,
   "Pattern" : "Strip"
 },
 "CelledOutlines" : [
@@ -65,12 +65,12 @@ File,19
 "Components" : [
   { "Designator" : "J6", "Value" : "", "Outline" : "SIP16",
   "X1000" : 4000, "Y1000" : 29000, "EndDeltaX" : 0, "EndDeltaY" : -1,
-  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Text" : { "X" : 0, "Y" : 16, "Angle" : 0, "Visible" : true },
   "Group" : 0
   },
   { "Designator" : "J7", "Value" : "", "Outline" : "SIP16",
   "X1000" : 13000, "Y1000" : 29000, "EndDeltaX" : 0, "EndDeltaY" : -1,
-  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Text" : { "X" : 0, "Y" : 16, "Angle" : 0, "Visible" : true },
   "Group" : 0
   },
   { "Designator" : "J1", "Value" : "", "Outline" : "SIP8",
@@ -88,9 +88,9 @@ File,19
   "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
   "Group" : 0
   },
-  { "Designator" : "J8", "Value" : "", "Outline" : "SIP16",
+  { "Designator" : "J8", "Value" : "for NodeMCU V3", "Outline" : "SIP16",
   "X1000" : 15000, "Y1000" : 29000, "EndDeltaX" : 0, "EndDeltaY" : -1,
-  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Text" : { "X" : 0, "Y" : 16, "Angle" : 0, "Visible" : true },
   "Group" : 0
   },
   { "Designator" : "J2", "Value" : "", "Outline" : "SIP8",
@@ -159,6 +159,13 @@ File,19
 "Wires" : [
 ],
 "Text" : [
+    { "Value" : "https:\/\/github.com\/tekkies\/esp-12x-adapter-programmer", "X" : 20, "Y" : 16, "Angle" : 90, "Size" : "Small", "Group" : 0 },
+    { "Value" : "Short J5 for programming", "X" : 2, "Y" : 23, "Angle" : 90, "Size" : "Small", "Group" : 0 },
+    { "Value" : "Open J5 when no ESP-12x installed", "X" : 3, "Y" : 21, "Angle" : 90, "Size" : "Small", "Group" : 0 },
+    { "Value" : "X", "X" : 15, "Y" : 14, "Angle" : 0, "Size" : "Small", "Group" : 0 },
+    { "Value" : "X", "X" : 4, "Y" : 14, "Angle" : 0, "Size" : "Small", "Group" : 0 },
+    { "Value" : "X", "X" : 13, "Y" : 14, "Angle" : 0, "Size" : "Small", "Group" : 0 },
+    { "Value" : "Use 15-pin headers for J6, J7, J8", "X" : 10, "Y" : 12, "Angle" : 0, "Size" : "Small", "Group" : 0 }
 ],
 "Nets" : [
     { "Node" : "N000057", "Components" : [
